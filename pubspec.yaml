@@ -1,0 +1,12 @@
+name: task_graph
+description: Generic dependency-graph task scheduler (DAG, ready-queue dispatch, skip-on-dependency-failure).
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.12.0"
+resolution: workspace
+
+dev_dependencies:
+  test: ^1.25.0
+  very_good_analysis: ^9.0.0
